@@ -1,0 +1,84 @@
+.nav{
+    gap: 20px;
+    display: table;
+    margin: 0 auto;
+    border: none;
+}
+
+.btn{
+  border: none;
+  background-color: rgb(92, 92, 185);
+  display: inline;
+  color: aliceblue;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+}
+
+.btn:hover{
+    background-color: rgba(92, 92, 185, 0.753);
+    color:aliceblue;
+}
+
+.hed{
+    text-align: center;
+    padding: 90px;
+    font-size: 50px;
+}
+
+.bdne{
+    display: inline;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 720px){
+   .btn{
+    width: 70px;
+    height: 40px;
+    font-size: 16px;
+   } 
+
+   .hed{
+    font-size: 40px;
+   }
+
+}
+
+@media only screen and (max-width: 660px){
+    .btn{
+        width: 60px;
+        height: 35px;
+        font-size: 13px;
+       } 
+    
+       .hed{
+        font-size:  33px;
+       }
+}
+
+
+@media only screen and (max-width: 600px){
+    .btn{
+        width: 60px;
+        height: 35px;
+        font-size: 14px;
+       } 
+    
+       .hed{
+        font-size:  33px;
+       }
+
+       .bdne{
+        padding: 10px;
+       }
+}
+@media only screen and (max-width: 480px){
+    .bdne{
+        padding: 8px;
+       }
+}
+
+
+
+

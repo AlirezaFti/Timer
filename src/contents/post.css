@@ -1,0 +1,35 @@
+.form{
+    margin-top:100px;
+    margin-right: 600px;
+    width:280px;
+   
+}
+.textArea{
+    display: block;
+    width:200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.textArea_btn{
+    border-radius: 8px;
+    border:2px solid teal;
+background-color: aquamarine;
+}
+.textArea_btn:hover{
+    background-color: teal ;
+    transform: scale(1.1);
+    border-color: rgb(32, 73, 73);
+}
+.post{
+    width:500px;
+    height:500px;
+    border:5px solid aquamarine;
+}
+.form_input_required{
+    display: block;
+    color:red;
+}
+.div_form{
+    display: none;
+}
